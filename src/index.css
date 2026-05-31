@@ -1,4 +1,4 @@
-/* ── Global ────────────────────────────────── */
+/*Global */
 * {
   margin: 0;
   padding: 0;
@@ -10,12 +10,12 @@ body {
   font-family: 'Georgia', serif;
 }
 
-/* ── App wrapper ───────────────────────────── */
+/*  App wrapper */
 .App {
   min-height: 100vh;
 }
 
-/* ── Navbar ────────────────────────────────── */
+/*Navbar*/
 .navbar {
   padding: 1rem 2rem;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
@@ -39,7 +39,7 @@ body {
   color: white !important;
 }
 
-/* ── Heading ───────────────────────────────── */
+/* Heading */
 h1 {
   font-size: 2.5rem;
   font-weight: bold;
@@ -52,7 +52,7 @@ h1 {
   margin-top: 0.5rem;
 }
 
-/* ── Cards ─────────────────────────────────── */
+/* Cards */
 .card {
   border: none !important;
   border-radius: 15px !important;
@@ -63,4 +63,49 @@ h1 {
 .card:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+/* Footer  */
+.footer-section {
+  background-color: #1a1a2e;
+  color: white;
+  padding: 4rem 0 2rem;
+}
+
+.footer-section h2 {
+  color: white;
+  font-size: 2rem;
+}
+
+.footer-section p {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.footer-section .form-label {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.footer-section .form-control,
+.footer-section .form-select {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: white;
+}
+
+/* Placeholder text color inside dark inputs */
+.footer-section .form-control::placeholder {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+/* Keep text white when the input is focused */
+.footer-section .form-control:focus,
+.footer-section .form-select:focus {
+  background-color: rgba(255, 255, 255, 0.15);
+  color: white;
+  border-color: rgba(255, 255, 255, 0.5);
+  box-shadow: none;
+}
+
+.footer-copy {
+  color: rgba(255, 255, 255, 0.4) !important;
+  font-size: 0.85rem;
 }
